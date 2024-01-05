@@ -44,9 +44,10 @@ public class LoanCalc {
         iterationCounter = 0;
         
         while ((endBalance(loan, rate, n, g) > 0)){
-            g += epsilon / n;
+            g += epsilon;
             iterationCounter++;
         }
+		g = g*10; ///סתם בדיקה
         return g;
     }
     
@@ -91,6 +92,7 @@ public class LoanCalc {
             
         }
             
+		g = g*10; ///סתם בדיקה
 
         return g;
     }
