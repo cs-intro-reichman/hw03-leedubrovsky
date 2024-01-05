@@ -73,8 +73,7 @@ public class LoanCalc {
             g = (L + H) / 2;
             iterationCounter++;
         }
-		iterationCounter++; //ניסיוןןןןןןןןן
-
+        iterationCounter++; //ניסיוןןןןןןןןן
 
         return g;
     }
@@ -94,5 +93,6 @@ public class LoanCalc {
         return g;
     }
 }
+
 
 
