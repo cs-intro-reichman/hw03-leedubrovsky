@@ -63,6 +63,7 @@ public class LoanCalc {
         double H = loan ; 
         double g = (L + H) / 2;
         iterationCounter = 0;
+		//check
 
         while (H - L > epsilon){
 
