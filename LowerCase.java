@@ -21,7 +21,8 @@ public class LowerCase {
             }else if ((s.charAt(i) >= 'A' && s.charAt(i) <= 'Z') ){
                 sentence += (char) (s.charAt(i) + 32 );
             }else {
-             sentence += (char) (s.charAt(i) );
+             sentence += (char) (s.charAt(i) ); // TODO: wrong identation and can write
+             // sentence += (char) s.charAt(i);
 
             }
             i++;
